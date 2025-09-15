@@ -8,7 +8,7 @@
 <title>홈페이지</title>
 </head>
 <body>
-       <img  src="./image/main-dish-bg.png" /><br>
+     <img  src="./image/main-dish-bg.png" /><br>
     <h1>안녕하세요</h1>
     <h1>@@@@@@@메인 디쉬 JSP 홈페이지 입니다!!!</h1>
 </body>
