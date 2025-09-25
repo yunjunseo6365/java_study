@@ -10,6 +10,4 @@ http://www.springframework.org/schema/tx http://www.springframework.org/schema/t
    <bean id="memberService" class="com.spring.member.service.MemberServiceImpl">
       <property name="memberDAO" ref="memberDAO"/>
    </bean>
-   
-   
 </beans>
