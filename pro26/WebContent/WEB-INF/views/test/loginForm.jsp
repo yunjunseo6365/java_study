@@ -5,7 +5,7 @@
 <c:set var="contextPath"  value="${pageContext.request.contextPath}"/>
 <%
   request.setCharacterEncoding("UTF-8");
-%>    
+%>
 
 <!DOCTYPE html>
 <html>
@@ -13,15 +13,15 @@
   <meta charset="UTF-8">
   <title>로그인창</title>
 </head>
-
 <body>
-<form   method="post"  action="${contextPath}/test/login.do">
+<form   method="post"  action="${contextPath}/test/login4.do">
+	<input type="hidden" name="email" value="test@naver.com">
     <table width="400">
         <tr>
-            <td>아이디 <input type="text" name="userID" size="10"></td>
+            <td>아이디 <input type="text" name="userID" size="10"> </td>
         </tr>
         <tr>
-            <td>이름 <input type="text" name="userName" size="10"></td>
+            <td>이름 <input type="text" name="userName" size="10"> </td>
         </tr>
         <tr>
             <td>
